@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- css 밎 js -->
+
+    <link rel="stylesheet" href="css/header.css" />
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/layout.css" />
+    <script src="js/layout.js"></script>
+    <link rel="stylesheet" href="css/banner.css" />
+    <script src="js/banner.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- 영역 구분 : 상단 -->
+      <div class="header">
+        <!-- 레이아웃 -->
+        <div class="layout">
+          <!-- 상단 -->
+          <div class="header_top">
+            <div class="header_left">
+              <a href="#" class="header_left_logo">
+                <img src="images/img_logo_ssgsag.svg" alt="로고" />
+              </a>
+              <div class="header_left_menu">
+                <div>
+                  <a href="#">내 일정</a>
+                  <a href="#">추천공고</a>
+                  <i class="circle"></i>
+                  <a href="#">슈퍼인턴</a>
+                </div>
+              </div>
+            </div>
+            <div class="header_right">
+              <a href="#">
+                <img src="images/ic_upload.svg" alt="공고등록" />공고등록
+              </a>
+              <a href="#">
+                <img src="images/ic_advertise.svg" alt="광고문의" />광고문의
+              </a>
+              <button class="login_bt">로그인</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- 영역 구분 : 내용 -->
+    <main class="main">
+      <!-- 배너 -->
+      <div class="banner">
+        <div class="layout">
+          <!-- 배너 슬라이드 -->
+          <div class="banner_wrap">
+            <!-- Swiper -->
+            <div class="swiper sw_banner">
+              <div class="swiper-wrapper">
+                <!-- API 연동 -->
+              </div>
+            </div>
+            <!-- 좌측이동 버튼 -->
+            <button class="banner_slide_prev">
+              <img src="images/slider_arrow.svg" alt="" />
+            </button>
+            <!-- 우측이동 버튼 -->
+            <button class="banner_slide_next">
+              <img src="images/slider_arrow.svg" alt="" />
+            </button>
+            <!-- 페이지네이션 -->
+            <div class="banner_slide_pg">페이지네이션</div>
+          </div>
+        </div>
+      </div>
+      <!-- 카테고리 -->
+      <section class="category"></section>
+
+      <!-- 콕 집은 공고 -->
+      <section class="pick"></section>
+
+      <!-- 핫한 공고 -->
+      <section class="hot"></section>
+
+      <!-- 방금 게시된 공고 -->
+      <section class="soon"></section>
+
+      <!-- 앱 설치 안내 -->
+      <section class="apk_giude"></section>
+    </main>
+    <!-- 영역 구분 : 하단 -->
+    <footer>
+      <div></div>
+      <div></div>
+    </footer>
+  </body>
+</html>
