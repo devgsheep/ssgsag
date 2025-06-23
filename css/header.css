@@ -1,43 +1,72 @@
 .header {
-  border: 1px solid #e2e2e2;
-
-  /* 뷰포트에 화면 고정 */
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff;
+  height: 71px;
+  /* 뷰포트 화면 고정 */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
+
 .layout {
+  width: 100%;
+  height: 100%;
+  padding-left: 18px;
 }
+
 .header_top {
+  max-width: 1024px;
   /* 가운데 정렬 */
   margin: 0 auto;
-
+  height: 100%;
   display: flex;
-  justify-content: space-between;
-  width: 1024px;
-  height: 70px;
-}
-.header_left {
-  position: relative;
   align-items: center;
+  justify-content: space-between;
+}
+
+.header_left {
   display: flex;
+  align-items: center;
   gap: 48px;
-  flex-direction: row;
-  justify-content: center;
 }
-.logo {
+
+.header_left_logo {
   display: flex;
+  align-items: center;
 }
-.menu {
+
+.header_left_logo img {
+  width: 88px;
+  height: 32px;
+}
+
+/* 메뉴 */
+.header_left_menu {
   display: flex;
+  align-items: center;
+  position: relative;
 }
-.menu p {
-  padding-right: 16px;
+
+.header_left_menu a {
+  padding-right: 17px;
   font-size: 17px;
-  color: #1c1c1c;
   font-weight: 500;
+  color: #1c1c1c;
+  text-decoration: none;
+  top: -2px;
+  position: relative;
 }
+
+.circle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ff5247;
+  transform: translateX(-400%);
+}
+
 .header_right {
   position: relative;
   align-items: center;
@@ -60,4 +89,5 @@
   background-color: rgb(131, 127, 255);
   border-radius: 10px;
   border: 0px;
+  font-weight: 500;
 }

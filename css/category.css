@@ -1,0 +1,49 @@
+.category {
+}
+.layout {
+}
+
+.category_icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 55px 0;
+  gap: 60px;
+}
+
+.category_icon_bt {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.category_icon_image {
+  width: 80px;
+  height: 80px;
+  background-color: #f7f7f7;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.category_icon_image img {
+  width: 48px;
+  height: 48px;
+}
+
+.category_mouse {
+  background-color: rgb(240, 241, 246) !important;
+}
+
+.category_icon_title {
+  padding-top: 12px;
+  background-color: #fff;
+  color: #444;
+  font-weight: 500;
+  font-size: 17px;
+}
