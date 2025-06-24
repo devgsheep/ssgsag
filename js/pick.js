@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
         { style: "red", text: "인턴쉽" },
         { style: "address", text: "경기 성남시 분당구" },
       ],
-      name: "[LX판토스] NEXT ESG 미래를 설계하는 아이디어 챌린지",
+      name: "[카카오뱅크] 콘텐츠 제작 어시스턴트 (체험형 인턴)",
       day: "D-7",
     },
   ];
