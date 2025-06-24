@@ -38,6 +38,11 @@
   height: 350px;
   padding: 8px 8px 12px;
   text-decoration: none;
+  border-radius: 20px;
+}
+
+.pick_contest_mouse {
+  background-color: rgb(241, 242, 250) !important;
 }
 
 .pick_image {
@@ -59,13 +64,16 @@
   content: "";
 }
 
-.pick_contest_image img {
+.pick_image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* 애니메이션 효과 */
+  transition: transform 0.3s ease;
 }
 
 .pick_contest_text {
+  padding: 0 8px;
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -83,20 +91,50 @@
   height: 21px;
 }
 
+.pick_left {
+  display: flex;
+  gap: 5px;
+}
+
 .option_blue {
   color: rgb(52, 109, 243);
   background-color: #e7ebfe;
   border-radius: 4px;
-  padding: 2px 4px;
+  padding: 3px 4px;
 }
 
 .option_ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 10px;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 1px 6px;
   right: 0;
   border-radius: 10px;
   color: white;
+}
+
+.option_purple {
+  color: #5f26cd;
+  background-color: #eee8ff;
+  border-radius: 4px;
+  padding: 3px 4px;
+}
+
+.option_red {
+  color: #fe6d6d;
+  background-color: #fdeff2;
+  border-radius: 4px;
+  padding: 3px 4px;
+}
+
+.option_address {
+  color: #777;
+  background-color: #ebedf0;
+  border-radius: 4px;
+  padding: 3px 4px;
 }
 
 .pick_contest_name {
@@ -125,4 +163,12 @@
   margin-top: 4px;
   font-size: 17px;
   font-weight: 600;
+}
+
+.zoom_image {
+  /* 애니메이션 대상 추가 */
+}
+
+.zoom_in {
+  transform: scale(1.1); /* 10% 확대 */
 }
