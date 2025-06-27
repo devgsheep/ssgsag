@@ -1,0 +1,105 @@
+.footer {
+}
+
+.layout {
+}
+
+.capy_wrap {
+  width: 1024px;
+}
+.capy_top {
+  padding-top: 56px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.capy_tel {
+  width: 494px;
+}
+
+.capy_tel h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+.capy_tel h2 {
+  padding: 20px 0px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #444;
+}
+.capy_tel p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.8;
+}
+
+.capy_cp_bn {
+  display: flex;
+  gap: 20px;
+}
+
+.capy_cp {
+  width: 237px;
+}
+.capy_cp h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1c1c1c;
+  padding-bottom: 4px;
+}
+.capy_cp p {
+  padding-top: 16px;
+  font-size: 16px;
+  color: #777;
+}
+
+.capy_bn {
+  width: 237px;
+}
+.capy_bn h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1c1c1c;
+  padding-bottom: 4px;
+}
+.capy_bn p {
+  padding-top: 16px;
+  font-size: 16px;
+  color: #777;
+}
+
+.capy_line {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid #f0f1f6;
+}
+
+.capy_bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  font-size: 14px;
+}
+
+.bar {
+  display: inline-block;
+  margin: 0 6px;
+  width: 1px;
+  height: 11px;
+  background-color: #aaaaaa;
+}
+
+.footer_pri {
+  display: flex;
+  padding-top: 20px;
+  gap: 24px;
+  padding-bottom: 56px;
+}
+
+.capy_img {
+  display: flex;
+  height: 100%;
+  gap: 20px;
+}
