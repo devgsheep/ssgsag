@@ -27,8 +27,12 @@
     <script src="js/category.js"></script>
     <link rel="stylesheet" href="css/pick.css" />
     <script src="js/pick.js"></script>
+    <link rel="stylesheet" href="css/hot.css" />
+    <script src="js/hot.js"></script>
     <link rel="stylesheet" href="css/soon.css" />
     <script src="js/soon.js"></script>
+    <link rel="stylesheet" href="css/apk_guide.css" />
+    <script src="js/apk_giude.js"></script>
   </head>
   <body>
     <header>
@@ -129,7 +133,6 @@
           </div>
         </div>
       </section>
-
       <!-- 콕 집은 공고 -->
       <section class="pick">
         <div class="layout">
@@ -205,10 +208,35 @@
           </div>
         </div>
       </section>
-
       <!-- 핫한 공고 -->
-      <section class="hot"></section>
-
+      <section class="hot">
+        <div class="layout">
+          <div class="hot_bg">
+            <div class="hot_title">
+              <p><span>요즘 </span>핫한 공고만 찾고 있다면?</p>
+            </div>
+            <!-- Api 연동 -->
+            <ul class="hot_wrap">
+              <li class="hot_li">
+                <a href="#" class="hot_up_image">
+                  <div class="hot_image">
+                    <img src="images/c2.png" alt="" />
+                  </div>
+                  <div class="hot_up_text">
+                    <div class="hot_up_option">
+                      <div class="option_blue">공모전</div>
+                    </div>
+                    <div class="hot_up_name">
+                      [대홍기획] 제42회 DCA 대홍 크리에이티브 어워드(~7/17)
+                    </div>
+                    <div class="hot_up_day">D-23</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <!-- 방금 게시된 공고 -->
       <section class="soon">
         <div class="layout">
@@ -238,14 +266,56 @@
           </div>
         </div>
       </section>
-
       <!-- 앱 설치 안내 -->
-      <section class="apk_giude"></section>
+      <section class="apk_giude">
+        <div class="layout">
+          <div class="apk_bg">
+            <div class="apk_wrap">
+              <div class="apk_img">
+                <img src="images/img_install_guide.png" alt="" />
+              </div>
+              <div class="apk_text_wrap">
+                <div class="apk_title">슥삭 앱 설치 안내</div>
+                <div class="apk_text">
+                  슥삭 앱에서 더 편리하게 공고를 추천받고 일정을 관리할 수
+                  있어요
+                </div>
+                <div class="button_wrap">
+                  <button class="apk_app">
+                    <img src="images/ic_app_store.png" alt="apple" />
+                    App Store에서 보기
+                  </button>
+                  <button class="apk_google">
+                    <img src="images/ic_google_play.png" alt="google" />
+                    Google Play에서 보기
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- 영역 구분 : 하단 -->
     <footer>
-      <div></div>
-      <div></div>
+      <div class="footer">
+        <div class="layout">
+          <div class="capy_top">
+            <div class="capy_tel">
+              <div>고객센터</div>
+              <div>전화 010-4824-3999</div>
+              <div>운영시간 10:00 - 19:00 (토·일, 공휴일 휴무)</div>
+              <div>점심시간 12:30 - 14:00</div>
+            </div>
+            <div class="capy_cp"></div>
+            <div class="capy_bn"></div>
+          </div>
+          <div class="capy_bottom">
+            <div class="capy_info"></div>
+            <div class="capy_img"></div>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
