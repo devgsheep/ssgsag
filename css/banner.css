@@ -21,8 +21,8 @@
 
 .sw_banner {
   /* 양 옆이 잘려서 보여야 함 */
-  overflow: visible;
   position: relative;
+  overflow: visible;
   width: 90vw;
   max-width: 640px;
   max-height: 320px;
@@ -53,9 +53,7 @@
   left: 0;
   top: 50%;
   z-index: 100;
-
   transform: translateX(-50%) translateY(-50%);
-
   width: 48px;
   height: 48px;
   border-radius: 24px;
@@ -100,4 +98,13 @@
 /* 포커스 된 버튼의 모양 css */
 .banner_slide_pg .swiper-pagination-bullet-active {
   background-color: #000000;
+}
+
+/* 반응형 */
+
+@media all and (max-width: 768px) {
+  .banner_slide_next,
+  .banner_slide_prev {
+    display: none;
+  }
 }

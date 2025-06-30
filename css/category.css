@@ -3,6 +3,27 @@
 .layout {
 }
 
+.category_wrap {
+  position: relative;
+}
+
+.hot_red {
+  background-color: #ff5247;
+  position: absolute;
+  width: 34.25px;
+  height: 18px;
+  transform: translateX(70%) translateY(-40%);
+  z-index: 50;
+  border-radius: 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
 .category_icon {
   position: relative;
   display: flex;
@@ -12,7 +33,34 @@
   padding-bottom: 40px;
 }
 
-.category_icon_bt {
+.category_icon_bt1 {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.category_icon_bt2 {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.category_icon_bt3 {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.category_icon_bt4 {
   background-color: #fff;
   width: 80px;
   height: 80px;
