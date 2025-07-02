@@ -95,3 +95,38 @@
   font-weight: 500;
   font-size: 17px;
 }
+
+@media all and (max-width: 768px) {
+  .category_icon {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 15px;
+  }
+  .category_icon_bt1,
+  .category_icon_bt2,
+  .category_icon_bt3,
+  .category_icon_bt4 {
+    width: 56px;
+  }
+
+  .hot_red {
+    transform: translateX(30%) translateY(-50%);
+    font-size: 11px;
+  }
+
+  .category_icon_image {
+    width: 56px;
+    height: 56px;
+    border-radius: 18px;
+  }
+  .category_icon_image img {
+    width: 40px;
+    height: 40px;
+  }
+  .category_icon_title {
+    padding-top: 6px;
+    font-size: 13px;
+  }
+}

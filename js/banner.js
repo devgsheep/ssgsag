@@ -75,7 +75,7 @@ window.addEventListener("DOMContentLoaded", function () {
         clickable: true,
       },
       breakpoints: {
-        760: {
+        768: {
           slidesPerView: "auto",
           spaceBetween: 80,
           centeredSlides: true,
@@ -85,13 +85,13 @@ window.addEventListener("DOMContentLoaded", function () {
   }
 
   // 초기 상태
-  let isLargeScreen = window.innerWidth >= 760;
+  let isLargeScreen = window.innerWidth >= 768;
   renderSlides(isLargeScreen);
   initSwiper();
 
   // 반응형 처리
   window.addEventListener("resize", () => {
-    const newLarge = window.innerWidth >= 760;
+    const newLarge = window.innerWidth >= 768;
     if (newLarge !== isLargeScreen) {
       isLargeScreen = newLarge;
       renderSlides(isLargeScreen);

@@ -13,12 +13,6 @@
   max-width: 640px;
 }
 
-.banner_slide {
-  display: flex;
-
-  gap: 25px;
-}
-
 .sw_banner {
   /* 양 옆이 잘려서 보여야 함 */
   position: relative;

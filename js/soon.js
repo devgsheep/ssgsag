@@ -95,7 +95,7 @@ window.addEventListener("load", function () {
   ];
 
   const mouseName = "soon_up_mouse";
-  const upWrap = document.querySelector(".soon_wrap");
+  const upWrap = document.querySelector(".soon_li");
 
   let html = ``;
 

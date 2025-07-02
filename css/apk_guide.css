@@ -12,13 +12,14 @@
 
 .apk_bg {
   background-color: #fff;
-  width: 990px;
-  height: 320px;
+  /* width: 990px; */
+  /* height: 320px; */
   border-radius: 25px;
 }
 
 .apk_wrap {
-  width: 988px;
+  width: 96.484375vw;
+  max-width: 988px;
   height: 320px;
   display: flex;
   justify-content: space-between;
