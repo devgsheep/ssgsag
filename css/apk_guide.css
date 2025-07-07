@@ -1,7 +1,10 @@
 .apk_giude {
   background-color: #f0f1f6;
   border: 1px solid #eee;
-  padding: 56px 16px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .apk_giude .layout {
@@ -10,11 +13,15 @@
   align-items: center;
 }
 
-.apk_bg {
+.apk_desktop {
   background-color: #fff;
   /* width: 990px; */
   /* height: 320px; */
   border-radius: 25px;
+}
+
+.apk_mobile {
+  display: none;
 }
 
 .apk_wrap {
@@ -25,6 +32,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px;
+  gap: 60px;
 }
 .apk_img {
 }
@@ -61,7 +69,7 @@
 .apk_app {
   width: 100%;
   height: 50px;
-  padding: 12px;
+  /* padding: 12px; */
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid #dee2e6;
@@ -70,6 +78,9 @@
   justify-content: center;
   gap: 7px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
 }
 
 .apk_app img {
@@ -80,7 +91,7 @@
 .apk_google {
   width: 100%;
   height: 50px;
-  padding: 12px;
+  /* padding: 12px; */
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid #dee2e6;
@@ -89,8 +100,75 @@
   justify-content: center;
   gap: 7px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
 }
 .apk_google img {
   width: 24px;
   height: 24px;
+}
+
+@media all and (max-width: 948px) {
+  .apk_desktop {
+    height: 320px;
+  }
+  .apk_title {
+    padding-top: 0px;
+  }
+  .button_wrap {
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .apk_desktop {
+    display: none;
+  }
+  .apk_mobile {
+    display: block;
+  }
+  .apk_giude {
+    padding: 0;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+  .apk_wrap {
+    display: flex;
+    padding: 0 20px;
+    height: auto;
+  }
+  .apk_img img {
+    width: 110px;
+    height: 74px;
+  }
+  .apk_title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .apk_text_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .apk_text {
+    font-size: 14px;
+    padding: 0px;
+  }
+  .button_wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+  }
+
+  .apk_app {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .apk_google {
+    font-size: 14px;
+    font-weight: 500;
+  }
 }
