@@ -10,7 +10,6 @@
 .apk_giude .layout {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .apk_desktop {
@@ -27,7 +26,7 @@
 .apk_wrap {
   width: 96.484375vw;
   max-width: 988px;
-  height: 320px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,23 +1,30 @@
 .footer {
+  width: 100%;
 }
 
 .footer .layout {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .capy_wrap {
-  width: 1024px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
+
 .capy_top {
   padding-top: 56px;
+  width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .capy_tel {
-  width: 494px;
+  flex: 1 1 300px;
+  min-width: 200px;
 }
 
 .capy_tel h3 {
@@ -39,11 +46,14 @@
 
 .capy_cp_bn {
   display: flex;
+  flex: 1 1 auto;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .capy_cp {
-  width: 237px;
+  flex: 1 1 150px; /* 너비가 좁아질 경우 줄바꿈 가능 */
+  min-width: 150px;
 }
 .capy_cp h3 {
   font-size: 17px;
@@ -58,7 +68,8 @@
 }
 
 .capy_bn {
-  width: 237px;
+  flex: 1 1 150px; /* 너비가 좁아질 경우 줄바꿈 가능 */
+  min-width: 150px;
 }
 .capy_bn h3 {
   font-size: 17px;
@@ -104,4 +115,54 @@
   display: flex;
   height: 100%;
   gap: 20px;
+}
+
+@media all and (max-width: 768px) {
+  .capy_top {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .capy_tel {
+    padding-bottom: 60px;
+  }
+
+  .capy_tel h3 {
+    font-size: 16px;
+  }
+
+  .capy_tel h2 {
+    font-size: 18px;
+  }
+
+  .capy_cp h3 {
+    font-size: 16px;
+  }
+  .capy_cp p {
+    font-size: 15px;
+  }
+
+  .capy_bn h3 {
+    font-size: 16px;
+  }
+  .capy_bn p {
+    font-size: 15px;
+  }
+
+  .capy_line {
+    margin-left: 20px;
+  }
+  .capy_bottom {
+    display: block;
+    font-size: 13px;
+  }
+  .capy_info {
+    display: inline-block;
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 13px;
+  }
+  .capy_img {
+    padding-left: 20px;
+    padding-bottom: 50px;
+  }
 }
