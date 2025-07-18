@@ -97,6 +97,10 @@
 /* 반응형 */
 
 @media all and (max-width: 768px) {
+  .banner_wrap {
+    padding-top: 10px;
+  }
+
   .sw_banner {
     overflow: hidden;
   }
