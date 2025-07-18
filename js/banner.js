@@ -76,7 +76,7 @@ window.addEventListener("DOMContentLoaded", function () {
       },
       breakpoints: {
         768: {
-          slidesPerView: "auto",
+          slidesPerView: 1,
           spaceBetween: 80,
           centeredSlides: true,
         },
