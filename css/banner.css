@@ -97,6 +97,10 @@
 /* 반응형 */
 
 @media all and (max-width: 768px) {
+  .sw_banner {
+    overflow: hidden;
+  }
+
   .banner_slide_next,
   .banner_slide_prev {
     display: none;

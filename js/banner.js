@@ -57,7 +57,7 @@ window.addEventListener("DOMContentLoaded", function () {
     if (swiper) swiper.destroy(true, true);
 
     swiper = new Swiper(".sw_banner", {
-      slidesPerView: "auto",
+      slidesPerView: 1,
       centeredSlides: true,
       spaceBetween: 12,
       loop: true,
@@ -76,7 +76,7 @@ window.addEventListener("DOMContentLoaded", function () {
       },
       breakpoints: {
         768: {
-          slidesPerView: 1,
+          slidesPerView: "auto",
           spaceBetween: 80,
           centeredSlides: true,
         },
